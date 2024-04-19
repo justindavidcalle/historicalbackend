@@ -1,7 +1,5 @@
 FROM node:alpine
 
-ENV NODE_ENV=development
-
 WORKDIR /express-docker
 
 COPY . .

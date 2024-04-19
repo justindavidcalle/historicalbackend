@@ -5,7 +5,7 @@ import { config } from 'dotenv';
 
 config()
 
-const uri = process.env.DB_URI
+const uri = "mongodb+srv://IDPAGroup:FnpfU3OdJVUcjrTs@historical.rwp4hls.mongodb.net/"
 const client = new MongoClient(uri, {
     serverApi: {
         version: ServerApiVersion.v1,
